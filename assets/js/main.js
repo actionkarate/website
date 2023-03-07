@@ -60,6 +60,14 @@
   window.addEventListener('load', navbarlinksActive)
   onscroll(document, navbarlinksActive)
 
+  window.onscroll = function() {
+    if (window.pageYOffset >= 390) {
+      document.getElementById("navlogo").style.display = "block";
+    } else {
+      document.getElementById("navlogo").style.display = "none";
+    }
+  }
+
   /**
    * Scrolls to an element with header offset
    */
