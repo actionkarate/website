@@ -1589,8 +1589,8 @@ section {
 }
 
 .logoimage{
-  width: 40%;
-  height: 40%;
+  width: 15rem;
+  height: auto;
 }
 
 .dist{
@@ -1605,9 +1605,9 @@ section {
   margin-left: 16%;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 450px) {
   .logoimage{
-    width: 15rem;
-    height: auto;
+    width: 40%;
+    height: 40%;
   }
 }
